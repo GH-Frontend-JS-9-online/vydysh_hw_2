@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__top {
+    background: #194277;
+    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header__top-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;    
+}
+.header__top-content p{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.header__top-content a{
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin-left: 50px;
+    cursor: pointer;
+    color: #194277;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.36px;
+    letter-spacing: 0.55px;
+    padding: 9px 34px;
+}
+.header {
+    background: #3f94fe;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.header__logo {
+    padding-top: 94px;
+}
+.header__logo h1{
+    color: #ffffff;
+    padding-top: 50px;
+    max-width: 815px;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.25px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.header__logo p{
+    max-width: 775px;
+    width: 100%;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 40px;
+    margin: 0 auto;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+.header__logo a{
+    background: #ffffff;
+    color: #3695ff;
+    text-decoration: none;
+    padding: 15px 65px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 92px;
+    border-radius: 28px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.prew{
+    opacity: 0.4;
+    
+}
+
+.about {
+    background: #ffffff;
+    text-align: center;
+    margin-bottom: 115px;
+    
+}
+
+.title {
+    padding-top: 99px;
+    color: #3677fd;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+}
+.about__content p{
+    color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    max-width: 1070px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.expert__content-list {
+    padding-top: 113px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.expert__content-list h3{
+    color: #3677fd;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.expert__content {
+    text-align: center;
+}
+
+.expert {
+    background: #f1f8ff;
+    padding-bottom: 100px;
+}
+
+.expert__content-list-item {
+    max-width: 360px;
+    width: 100%;
+}
+.expert__content-list-item p{
+    color: #5a5a5a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.works {
+    text-align: center;
+}
+
+.works__content {
+    padding-top: 100px;
+    padding-bottom: 190px;
+}
+
+.works__content-list {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.works__content-list-block {
+    max-width: 360px;
+    width: 100%;
+    background: #f4f4f4;
+}
+.works__content-list-block img{
+    padding-top: 30px;
+}
+
+.works-title {
+    padding-bottom: 50px;
+}
+
+.clients__block {
+    padding-top: 90px;
+    padding-bottom: 113px;
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
+
+.clients {
+    text-align: center;
+    background: #f1f8ff;
+}
+
+.hire {
+    background: url(../img/bg-hire.jpg) no-repeat center / cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}    
+
+.hire__block p {
+    color: #fff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+}
+
+.hire__block span {
+    font-weight: 700;
+}
+
+.hire__block a{
+    background: #fff;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 12px 65px;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #3695ff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.hire__block {
+    position: relative;
+    display: block;
+}
